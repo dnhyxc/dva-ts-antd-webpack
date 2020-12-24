@@ -11,9 +11,9 @@ npm i typescript -g
 2，安装所需依赖：
 
 ```js
-npm i link typescript
-npm i --save-dev ts-loader source-map-loader
-npm i --save-dev @types/react @types/react-dom
+cnpm i link typescript
+cnpm i --save-dev ts-loader source-map-loader
+cnpm i --save-dev @types/react @types/react-dom
 ```
 
 3，配置 tsconfig.json 文件：
@@ -62,7 +62,6 @@ npm i --save-dev @types/react @types/react-dom
 <2>，在 typings 文件夹中创建一个 `index.d.ts` 文件，该文件具体配置如下：
 
 ```js
-
 declare module '*.svg' {
   const url: string;
   export default url;
